@@ -1,0 +1,27 @@
+/* make the body and html take up the entire page and disable margins */
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+
+	/* disable scrollbars */
+	overflow: hidden;
+
+	/* no floating content */
+	display: block;
+}
+
+
+/* canvas settings */
+canvas {
+	/* have a 1px border and a white background */
+	border: 0px solid #000000;
+	background-color: #ffffff;
+
+	/* center the canvas */
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
